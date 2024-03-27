@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif, Tahoma, Arial, Impact;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+
+}
+#page .container{
+    padding-left: 20%;
+}
+#page .container .background img{
+    width:940px;
+    height: 800px;
+
+}
+#page .white_background{
+    text-align:center;
+}
+#page .background .Or_login_with .slow_fade img{
+    width:70px;
+    height:60px;
+}
+#page .container .background .white_background {
+    border: solid #f7f3f3fa;
+    background-color: #f7f3f3fa;
+    border-radius:7px;
+    width: 350px;
+    height: 700px;
+    margin-left: 25%;
+    position: relative;
+    bottom: 760px;
+
+}
+#page .container .background .white_background .sign_in{
+    margin:70px 70px 30px 70px;
+    font-size:30px;
+    color:#4c2256;
+
+}
+#page .container .background .white_background a input{
+    width:250px;
+    height:50px;
+    margin:10px 10px 10px 15px;
+    border-radius:5px;
+    border:solid white;
+
+}
+::placeholder {
+    color: #4c2256;
+    opacity: 1; /* Firefox */
+    font-size:15px;
+    font-family:Impact;
+    padding:15px;
+}
+#page .container .background .white_background .button_sign_in{
+
+
+}
+#page .container .background .white_background .button_sign_in button {
+    width: 150px;
+    height:40px;
+    background-color:#bd59d7;
+    color:white;
+    border-radius:20px;
+    border: solid #bd59d7;
+    cursor:grab;
+}
+#page .container .background .white_background .Or_login_with{
+    margin: 50px 10px 160px 10px;
+    color:darkgrey;
+
+}
+#page .container .background .white_background .Or_login_with img{
+    margin:15px 0px 15px 15px;
+    border-radius:50%;
+
+}
+#page .container .background .white_background .sign_up{
+    color:#827584;
+    position: relative;
+    bottom: 100px;
+}

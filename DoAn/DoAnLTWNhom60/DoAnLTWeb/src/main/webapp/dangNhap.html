@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="dangNhap.css">
+</head>
+<body>
+      <div id="wrapper">
+           <form id="form-login" action="http://google.com" onsubmit="return my_submit();">
+                <div id="imgHinh">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/393391152_208027392306653_4287583286038172734_n.png?_nc_cat=106&ccb=1-7&_nc_sid=510075&_nc_ohc=j-cDDctPUZcAX_OYW5u&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQtLWCPR3-OIOvJwAx_zky171bVj7SA3uUW7rnpGvMp_A&oe=65561255">
+                </div>
+                <div class="thongtin">
+                    <h5 class="heading">ĐĂNG NHẬP</h5>
+                <div class="form-group">
+                    <div class="error" id="inputError"></div>
+                    <input class="form-input" id="idFormInput" name="idFormInput" type="text" placeholder="Tên tài khoản" >
+                </div>
+                <div class="form-group">
+                    <input class="form-pass" id="idFormPass" name="idFormPass" type="password" placeholder="Mật khẩu">
+                </div>
+                <div class="form-group" id="idFPass">
+                    <p id="idMK"> <a href="">Quên mật khẩu?</a> </p>
+                </div>
+                <div>
+                     <button id="submitDangNhap">ĐĂNG NHẬP</button>
+                </div>
+                <div class="form-group" id="idDK">
+                    <p><a href="">Bạn chưa có tài khoản?</a></p>
+                </div>
+           </div>
+      </form>
+</div>
+
+<script>
+    function my_submit () {
+        var flag = true;
+        let inputElement = document.getElementById("idFormInput");
+        let passElement = document.getElementById("idFormPass");
+        let inputError = document.getElementById("inputError");
+        inputError.textContent = "";
+
+        if (inputElement.value === "" && passElement.value === "") {
+            inputError.textContent = "*Bạn chưa nhập tên đăng nhập hoặc mật khẩu!";
+            flag = false;
+        } else if (inputElement.value === "") {
+            inputError.textContent = "*Bạn chưa nhập tên đăng nhập!";
+            flag = false;
+        } else if (passElement.value === "") {
+            inputError.textContent = "*Bạn chưa nhập mật khẩu!";
+            flag = false;
+        }
+
+        return flag;
+    }
+</script>
+</body>
+</html>

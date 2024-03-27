@@ -1,0 +1,19 @@
+ body {
+     overflow: visible !important;
+ }
+.anhPhoto {
+    text-align: center; /* Center the contents horizontally */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    max-width: 100%; /* Optional: Limit the width of the container */
+}
+.anhPhoto img {
+    max-width: 80%; /* Adjust the percentage to control the image size */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: inline-block; /* Allow the image to be centered within the parent container */
+}
+h5{
+    font-weight: 700;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<input type="text" id="myInput">
+<button onclick="changeColor()">Thay đổi màu</button>
+<script>function changeColor() {
+  var inputElement = document.getElementById("myInput");
+
+  // Thay đổi màu nền của thẻ input
+  if(inputElement==="") {
+    inputElement.style.backgroundColor = "red"; // Bạn có thể thay đổi "red" thành màu bạn muốn
+  }
+  // Nếu bạn muốn đặt lại màu sau một khoảng thời gian, bạn có thể sử dụng setTimeout
+  setTimeout(function() {
+    inputElement.style.backgroundColor = ""; // Để đặt lại màu về mặc định
+  }, 2000); // Thời gian đặt lại màu sau 2 giây (2000 ms)
+}</script>
+</body>
+</html>

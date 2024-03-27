@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thay Đổi Thông Tin</title>
+    <link rel="stylesheet" href="ThayDoiThongTin.css">
+</head>
+<body>
+<div class="changeInF">
+    <form id="changeNam" onsubmit="return check()">
+        <table>
+            <thead>
+            <tr ><td id="head" colspan="4"><h5 style="font-weight: 700"> THAY ĐỔI THÔNG TIN </h5></td></tr>
+            </thead>
+            <tbody id="container">
+            <tr id="changeName">
+                <td><label id="lName">Tên đăng nhập</label></td>
+                <td>
+                    <div id="InName">
+                        <div class="error" id="error"></div>
+                        <input id="HienThiTen" name="TenHT" type="text">
+                    </div>
+                </td>
+            </tr>
+            <tr id="changegGmail">
+                <td> <label id="lGmail"> Gmail</label></td>
+                <td>
+                    <div id="InGmail">
+                        <input id="HienThiGmail" name="GmailHT" type="text">
+                    </div>
+                </td>
+            </tr>
+            <tr id="changeSDT">
+                <td><label id="lSDT"> Số điện thoại </label></td>
+                <td>
+                    <div id="InSDT">
+                        <input id="HienThiSDT" name="SDTHT" type="text">
+                    </div>
+                </td>
+            </tr>
+            <tr id="changeDC">
+                <td><label id="lDiaChi"> Địa chỉ nhận</label></td>
+                <td>
+                    <div id="InDiaChi">
+                        <input id="HienThiDC" name="DCHT" type="text">
+                    </div>
+                </td>
+            </tr>
+            <tr id="changeNgaySinh">
+                <td><label id="lNS">Ngày sinh</label></td>
+                <td>
+                    <div id="InNS">
+                        <input id="HienThiNS" name="HienThiNS" type="date">
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+            <tr id="SubmitSB">
+                <td><label></label></td>
+                <td>
+                    <div><button id="submit" name="SB" onclick="my_function()" style="color: white"> LƯU </button></div>
+                </td>
+
+            </tr>
+        </table>
+    </form>
+
+</div>
+<script>
+
+    function check() {
+        var flag = true;
+        var tenElement = document.getElementById("HienThiTen");
+        var gmailElement = document.getElementById("HienThiGmail");
+        var sdtElement = document.getElementById("HienThiSDT");
+        var dcElement = document.getElementById("HienThiDC");
+        var nsElement = document.getElementById("HienThiNS");
+        var error = document.getElementById("error");
+
+        var gmailReg = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        var phoneReg = /^\d{10}/;
+        if(tenElement.value == "") {
+            error.innerHTML = "Vui lòng nhập tên đăng nhập!";
+            flag = false;
+        }else if(gmailElement.value == "") {
+            error.innerHTML = "Vui lòng nhập gmail!";
+            flag = false;
+        }else if(!gmailElement.value.match(gmailReg)) {
+            error.innerHTML = "Bạn đã nhập sai định dạng gmail, vui lòng thử lại!";
+            flag = false;
+        }else if(sdtElement.value == "") {
+            error.innerHTML = "Vui lòng nhập số điện thoại!";
+            flag = false;
+        }else if(!sdtElement.value.match(phoneReg)) {
+            error.innerHTML = "Bạn đã nhập sai định dạng số điện thoại, vui lòng thử lại!";
+            flag = false;
+        }
+        else if(dcElement.value == "") {
+            error.innerHTML = "Vui lòng nhập địa chỉ!";
+            flag = false;
+        }else if(nsElement.value == "") {
+            error.innerHTML = "Vui lòng chọn ngày sinh!";
+            flag = false;
+        }
+        return flag;
+    }
+</script>
+</body>
+</html>

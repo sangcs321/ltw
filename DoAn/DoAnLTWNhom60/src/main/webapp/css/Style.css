@@ -1,0 +1,248 @@
+:root {
+    --font_size_all: 1rem;
+    --font_weight_all: 500;
+    --color_backgroud: #f68e2e;
+    --font_family: "Poppins", sans-serif;
+    --color: #212529;
+    --line_height: 1.2rem;
+    --color_gray:#767676;
+}
+
+* {
+    font-size: var(--font_size_all);
+    font-weight: var(--font_weight_all);
+    font-family: var(--font_family);
+    color: var(--color);
+    line-height: var(--line_height);
+}
+html {
+    height: 100%;
+}
+body {
+    background-color: rgba(245, 245, 245, 1);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+}
+header {
+    height: 124.03px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.mgt {
+    margin-top: 140px;
+}
+
+footer {
+    margin-top: auto;
+}
+.lgr {
+    color:white;
+}
+.hd {
+    height: 62.5px;
+}
+.bgcolor {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(224, 221, 221);
+}
+.bgcolor-gray{
+    background-color: rgba(245, 245, 245, 1);
+}
+.bd {
+    border-bottom: 3px solid var(--color_backgroud);
+}
+.text-color {
+    color: var(--color_backgroud);
+}
+.bgcolor-orange {
+    background-color: var(--color_backgroud);
+}
+.form-search {
+    position: relative;
+}
+
+.form-search .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.hv {
+    transition: 0.4s;
+}
+
+.hv a {
+    color: #000;
+}
+
+.hv:hover > a {
+    color: var(--color_backgroud);
+}
+
+.dropdown-item:hover {
+    color: var(--color_backgroud);
+}
+
+.list-group-item-action:hover {
+    color: var(--color_backgroud);
+}
+.lbhv:hover {
+    color: var(--color_backgroud);
+    cursor: pointer;
+}
+.img_p {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+.img_p2 {
+    width: 98%;
+    height: 400px;
+    object-fit: cover;
+}
+.img_p_slide {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.card-body {
+    position: relative;
+}
+.card-body .cart {
+    position: absolute;
+    bottom: 32px;
+    right: 15px;
+    font-size: 25px;
+    color: var(--color_backgroud);
+    transform: scale(0);
+    transition: 0.2s;
+}
+.card:hover  {
+    border: 1px solid #f68e2e;
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.card:hover .card-body .cart {
+    transform: scale(1);
+}
+.price {
+    color: var(--color_backgroud);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 27px;
+}
+.img_p_detail {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+.color-gray {
+    color: var(--color_gray);
+}
+.cate {
+    display: flex;
+    background-color: var(--color_backgroud);
+    cursor: pointer;
+
+}
+.cate .icon-bar{
+    margin-right: 5px;
+    margin-left: 12px;
+}
+.cate .cateList {
+    padding-top: 4px;
+    display: inline-block;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.bd-full {
+    border: 1px solid var(--color_backgroud) ;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+.mheight {
+    max-height: 400px;
+}
+tr {
+    border:1px solid #dedbdb !important;
+}
+td {
+    padding:20px 0;
+    font-weight: 700;
+    border-right:1px solid #dedbdb !important;
+}
+.item{
+    display: flex;
+}
+.img_p_cart {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.item_text {
+    display: flex;
+    align-items: center;
+}
+.save {
+    padding: 10px 20px;
+    background-color: var(--color_backgroud);
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    border-radius: 3px;
+}
+.month {
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid  #dedbdb;
+}
+table > tbody > tr:hover {
+    cursor: pointer;
+    background-color: rgba(245, 245, 245, 1);
+}
+table > tbody > tr >td {
+    font-weight: var(--font_weight_all);
+}
+.text-danger{
+    font-size: 14px;
+}
+.fs {
+    font-size: 12px;
+}
+th, td {
+    min-width: 130px;
+}
+.w40 {
+    min-width: 40px !important;
+}
+.w300 {
+    min-width: 300px !important;
+}
+.w260 {
+    min-width: 260px !important;
+}
+.w225 {
+    min-width: 225px !important;
+}
+.w110 {
+    min-width: 110px !important;
+}
+
+
+
+
+
+
+
+
+

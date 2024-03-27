@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="efe14f1e-a8b5-4cfc-801a-1b95d00fa298" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../DemoProject/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoProject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoProject/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoProject/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoSerlet2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoSerlet2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoSerlet2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoSerlet2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoSerlet2/src/main/java/vn/com/login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoSerlet2/src/main/java/vn/com/login/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoSerlet2/src/main/java/vn/com/login/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoSerlet2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoSerlet2/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoServlet/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoServlet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoServlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoServlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoServlet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoServlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoServlet/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/untitled/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/untitled/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/untitled/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/untitled/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page a" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2YHfX6lr7k681riHeerazgTzyb0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efe14f1e-a8b5-4cfc-801a-1b95d00fa298" name="Changes" comment="" />
+      <created>1700187463324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700187463324</updated>
+      <workItem from="1700187464459" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

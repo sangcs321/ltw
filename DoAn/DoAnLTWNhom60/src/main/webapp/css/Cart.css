@@ -1,0 +1,55 @@
+
+.sl {
+    width: 8%;
+}
+.sp {
+    width: 20%;
+}
+.delete {
+    border-radius: 5px;
+    border: none;
+    padding:5px 20px;
+    background-color: #f84444;
+    font-size: 20px;
+}
+.quantity {
+    width: 30%;
+    border: 1px solid #d2d0d0;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 0;
+}
+.update {
+    border-radius: 3px;
+    border: none;
+    padding: 5px 5px;
+    font-size: 13px;
+    background-color: var(--color_backgroud);
+}
+.pay {
+    display: flex;
+   justify-content: end;
+}
+#tt {
+    font-weight: 700;
+}
+.pay #btnPay {
+    border: none;
+    padding: 10px 20px;
+    background-color: var(--color_backgroud);
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+}
+.imgbg {
+    width: 500px;
+    height: 400px;
+}
+tr{
+    width: 100%;
+}
+
+

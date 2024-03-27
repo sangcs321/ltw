@@ -1,0 +1,56 @@
+.nameProduct {
+    font-size: 1.35rem;
+    line-height: 1.5rem;
+}
+
+#address{
+    margin-left: 25px;
+}
+.amount-product {
+    width: 200px;
+    display: flex;
+}
+.t{
+    position: relative;
+    top: 6px;
+    width: 40%;
+}
+.dai {
+    width: 60%;
+    display: flex;
+}
+
+
+#decrease, #increase{
+    width: 25%;
+    border: 1px solid #d2d0d0;
+}
+.amount {
+    width: 50%;
+}
+#amount{
+    height: 35.2px;
+    max-width: 100%;
+    border: 1px solid #d2d0d0;
+    margin: auto;
+    text-align: center;
+}
+
+ .add-cart button {
+     padding: 10px;
+     border:1px solid var(--color_backgroud);
+     color: #f68e2e;
+     background-color: white;
+ }
+ .add-cart button i {
+     color: #f68e2e;
+ }
+.pay {
+    width: 50%;
+}
+.pay button {
+    padding: 10px 20px;
+    background-color: var(--color_backgroud);
+    border: none;
+    border-radius: 3px;
+}

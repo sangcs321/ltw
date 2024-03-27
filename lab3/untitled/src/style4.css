@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: sans-serif
+}
+
+.parent {
+    width: 40%;
+    margin: auto;
+    border: 10px solid #E3E3E3;
+    overflow: hidden;
+}
+
+/*css account*/
+.parent .container__infor {
+    margin: 30px 20px;
+
+}
+
+.parent .container__infor .account > p {
+    margin-bottom: 10px;
+    color: #65ab16;
+    font-weight: 700;
+
+}
+
+.field_your_infor {
+    display: flex;
+    border: #E3E3E3 solid 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.field_your_infor .icon {
+    margin: 10px 10px;
+    flex-basis: 10%;
+    border-right: 1px solid #E3E3E3;
+    overflow: hidden;
+}
+
+.field_your_infor .icon > i {
+    width: 100%;
+    color: #9d9c9c;
+}
+
+.field_your_infor .input__field {
+    flex-basis: 90%;
+    margin: 10px 5px;
+
+}
+
+.field_your_infor .input__field > input {
+    width: 100%;
+    border: none;
+
+
+}
+
+.input__field > input:focus {
+    outline: none;
+}
+
+/*end css account*/
+/*css gender and birth*/
+.gender_birth {
+    display: flex;
+    margin-top: 30px;
+}
+
+.gender_birth .birth {
+    flex-basis: 50%;
+    margin-right: 15px;
+}
+
+.gender_birth p {
+    color: #65ab16;
+    font-weight: 700;
+
+}
+
+.gender_birth .birth .select_day_month_year {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.gender_birth .birth .select_day_month_year .select {
+    flex-basis: 28%;
+}
+
+.gender_birth .birth .select_day_month_year .select > input {
+    width: 100%;
+    padding: 9.2px 0;
+    border: #E3E3E3 solid 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.gender_birth .gender {
+    flex-basis: 50%;
+
+}
+
+.select_gender {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.select_gender .select {
+    width: 50%;
+    /*border: solid 1px red;*/
+}
+
+.select_gender .select > input {
+    padding: 9.2px 0;
+    width: calc(100% - 3.2px);
+    border: #E3E3E3 solid 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*end css gender and birth*/
+/*css payment*/
+.pay {
+    margin-top: 30px;
+}
+
+.pay p {
+    color: #65ab16;
+    font-weight: 700;
+}
+
+.pay .select__payment {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.pay .select__payment .credit {
+    width: 50%;
+    border: #E3E3E3 solid 1px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: #9d9c9c;
+
+}
+
+.pay .select__payment .credit:hover {
+    background-color: #65ab16;
+    color: white;
+
+}
+
+.pay .select__payment .paypal {
+    width: 50%;
+    border: #E3E3E3 solid 1px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: #9d9c9c;
+}
+
+.pay .select__payment .paypal:hover {
+    background-color: #65ab16;
+    color: white;
+}
+
+.pay_infor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay_infor .cvcNumber {
+    width: 48%;
+}
+
+.pay_infor .cvcNumber .field_your_infor {
+    margin-bottom: 0;
+}
+
+.pay_infor .select_date {
+    width: 48%;
+    display: flex;
+}
+
+.pay_infor .select_date > select {
+    width: 100%;
+    border: #E3E3E3 solid 1px;
+    border-radius: 5px;
+}
+
+.conditon {
+    margin-top: 30px;
+    color: #9d9c9c;
+}
+
+.conditon p {
+    color: #65ab16;
+    font-weight: 700;
+}
+
+.conditon .accept_condition {
+    margin-top: 15px;
+}
+
+
+
+
+

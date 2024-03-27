@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /* CSS để căn giữa hình ảnh */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* CSS để xoay hình ảnh */
+        #image {
+            transition: transform 1s;
+        }
+    </style>
+    <!-- Bao gồm thư viện jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<img id="image" src="Hình%20ảnh%20Ronaldo%20đẹp%20cùng%20khoảnh%20khắc%20CR7%20độc%20nhất%20vô%20nhị.jpg" alt="Tấm hình">
+
+<script>
+    // JavaScript và jQuery để xoay hình ảnh sau 2 giây
+    $(window).load(function () {
+        var deg = 0;
+        setTimeout() (function (){
+            deg += 15;
+            $('#image').css("transform",'rotate('+deg +'deg)')
+        },2000)
+    });
+</script>
+</body>
+</html>

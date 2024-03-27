@@ -1,0 +1,26 @@
+
+.changeInfor #btnChangeInfor {
+    border: none;
+    padding: 10px 20px;
+    background-color: var(--color_backgroud);
+    border-radius: 5px;
+}
+.pay #btnPay {
+    border: none;
+    padding: 10px 20px;
+    background-color: var(--color_backgroud);
+    border-radius: 5px;
+}
+.tb {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+}
+.tr{
+    border:1px solid #dedbdb !important;
+}
+.tr > td{
+    border-right:1px solid #dedbdb !important;
+    padding:20px 0 !important;
+    min-width: 162.8px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #greeting {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="greeting"><span id="randomGreeting"></span></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const greetings = [
+            "Chào bạn!",
+            "Chào buổi sáng!",
+            "Good moring!",
+            "Hé lô mọi người lại là Chao đây!",
+            "Chúc một ngày tốt lành!",
+        ];
+        const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
+        document.getElementById("randomGreeting").textContent = randomGreeting;
+    });
+</script>
+</body>
+</html>

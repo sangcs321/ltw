@@ -1,0 +1,60 @@
+        .container {
+            width: 900px;
+        }
+
+        header {
+            width: 900px;
+            height: 120px;
+            background-color: rgba(185, 125, 13, 0.552);
+            text-align: center;
+            font-size: 25px;
+            color: white;
+
+        }
+        .company{
+            margin-top: 50px;
+            width: 900px;
+            height: 400px;
+            background-color: rgb(124, 122, 122);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .company .text {
+            font-size: 30px;
+            bottom: 0px;
+            text-align: center;
+            color: white;
+        }
+
+        .six_service {
+        display: flex;
+        width: 700px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+
+        }
+        .six_service .single_service {
+            width: 180px;
+           height: 220px;
+           background-color: rgb(124, 122, 122);
+        }
+
+        .six_service div {
+            margin-bottom: 70px; /* Tạo khoảng cách dưới cùng */
+        }
+        .service {
+            text-align: center;
+            font-size: 30px;
+            color: white;
+        }
+        footer {
+            width: 900px;
+            height: 120px;
+            background-color:rgb(68, 34, 208);
+            text-align: center;
+            color: white;
+            font-size: 25px;
+        }

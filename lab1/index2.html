@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {margin: 0px; padding: 0px}
+        .container{
+        width:500px;
+        height:300px;
+        border-style:double
+        }
+        header{
+        text-align:center;
+        border-bottom: 1px solid black;
+        }
+
+        nav{
+        text-align:center;
+        border-bottom: 1px solid black;
+        }
+        .body{
+        height:200px;
+        width:100%;
+        border-bottom: 1px solid black;
+        display:flex;
+        }
+        .body .trai{
+        width: 20%;
+        border-right: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        }
+        .body .phai {
+        width: 80%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        footer{
+        text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header><h2>Header Section</h2></header>
+        <nav><h2>Navigation Bar</h2></nav>
+        <div class="body">
+            <div class="trai"><h2>Index</h2></div>
+            <div class="phai"><h2>Content Section</h2></div>
+        </div>
+        <footer><h2>Footer Section</h2></footer>
+    </div>
+</body>
+</html>
